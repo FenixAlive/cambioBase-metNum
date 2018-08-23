@@ -35,7 +35,7 @@ nuevoNum = int2str(nuevoNum);
 if (fraccion != 0)
   fraNum = []; %aqui guarda la parte fraccionada del nuevo numero
 
-  for i=0:5 %tendra 6 ceros despues del punto
+  for i=0:9 %tendra 10 ceros despues del punto
 
     % agrega un nuevo elemento a la derecha del vector, que es el entero de multiplicar la fraccion del numero por la base
     fraccion = fraccion*base;
